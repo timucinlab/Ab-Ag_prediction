@@ -103,7 +103,7 @@ project/
 ## Citation
 
 If you use this code, please cite DockQ, pDockQ and AntiConf publications: 
-
+```
 @article{Basu2016DockQ,
   title     = {DockQ: A Quality Measure for Protein-Protein Docking Models},
   author    = {Basu, Sankar and Wallner, Bj{\"o}rn},
@@ -114,7 +114,8 @@ If you use this code, please cite DockQ, pDockQ and AntiConf publications:
   year      = {2016},
   doi       = {10.1371/journal.pone.0161879},
 }
-
+```
+```
 @article{Zhu2023pDockQ2,
   title     = {Evaluation of {AlphaFold-Multimer} prediction on multi-chain protein complexes},
   author    = {Zhu, Wensi and Shenoy, Aditi and Kundrotas, Petras and Elofsson, Arne},
@@ -125,7 +126,8 @@ If you use this code, please cite DockQ, pDockQ and AntiConf publications:
   year      = {2023},
   doi       = {10.1093/bioinformatics/btad424},
 }
-
+```
+```
 @article {Unsal2025AntiConf,
 	title = {Confidence Scoring for AI-Predicted Antibody{\textendash}Antigen Complexes: AntiConf as a Precision-driven Metric},
    author = {Unsal, Serbulent and Holland, Benjamin and Sardag, Inci and Timucin, Emel},
@@ -133,5 +135,4 @@ If you use this code, please cite DockQ, pDockQ and AntiConf publications:
 	doi = {10.1101/2025.07.25.666870},
    journal = {bioRxiv}	
 }
-
-
+```
