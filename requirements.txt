@@ -1,0 +1,6 @@
+python==3.10.13
+biopython>=1.79
+dockq>=2.1.0
+pandas>=1.5.0
+scipy>=1.7.0
+numpy<2.0.0

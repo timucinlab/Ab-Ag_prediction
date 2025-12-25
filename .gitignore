@@ -1,0 +1,41 @@
+# 1. Add .gitignore
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Generated outputs
+results/
+outputs/
+*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
+
+# 2. Add LICENSE (optional but recommended)
+touch LICENSE
+# Add your chosen license text
+
+# 3. Check data file size
+ls -lh data/metadata_200Ab-Ag_complex_rev.csv
+
+# 4. Initialize and upload
+git init
+git add .
+git status  # Review what will be committed
+git commit -m "Initial commit: Antibody-Antigen prediction analysis"
+
+# 5. Push to GitHub
+git remote add origin https://github.com/yourusername/Ab-Ag_prediction.git
+git branch -M main
+git push -u origin main
