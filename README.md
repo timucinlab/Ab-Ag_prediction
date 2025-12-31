@@ -5,20 +5,6 @@ This project evaluates protein complex predictions from **AlphaFold2 (AF2)**, **
 **Based on original script by Elofsson Lab:**  
 https://gitlab.com/ElofssonLab/afm-benchmark/-/blob/main/src/pdockq2.py
 
-## Installation
-
-### Prerequisites
-```bash
-pip install -r requirements.txt
-```
-
-### Install DockQ
-
-This tool requires the DockQ library:
-```bash
-pip install DockQ
-```
-
 ## Directory Structure
 
 Organize your prediction folders as follows:
