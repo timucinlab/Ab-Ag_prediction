@@ -13,7 +13,7 @@ project/
 ├── analysis_notebook.ipynb
 ├── requirements.txt
 ├── data/
-│   └── metadata_200Ab-Ag_complex_rev.csv
+│   └── metadata_200Ab-Ag_complex.csv
 │
 ├── original_pdbs/              # Native PDB reference files
 │   ├── 7ar0.pdb
