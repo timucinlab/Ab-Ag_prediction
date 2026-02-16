@@ -1,6 +1,6 @@
 # Quality Assessment of Ab-Ag Complex Predictions
 
-This project evaluates protein complex predictions from **AlphaFold2 (AF2)**, **Boltz-1**, **Chai-1**, and **Protenix** by calculating **DockQ** scores (using native references) and **pDockQ2** confidence scores.
+This project evaluates Antibody-antigen complex predictions from **AlphaFold2 (AF2)**, **Boltz-1**, **Boltz-1x**, **Boltz-2**, **Chai-1**, **Protenix**, **Protenix-1**, **OpenFold3** and **ESMFold**,  by calculating **DockQ** scores (using native PDBs) and various confidence scores.
 
 **Based on original script by Elofsson Lab:**  
 https://gitlab.com/ElofssonLab/afm-benchmark/-/blob/main/src/pdockq2.py
